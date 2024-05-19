@@ -1,0 +1,7 @@
+C:\Users\rannyer.thom\source\repos\ProjetoCinema\ProjetoCinema\bin\Debug\ProjetoCinema.exe.config
+C:\Users\rannyer.thom\source\repos\ProjetoCinema\ProjetoCinema\bin\Debug\ProjetoCinema.exe
+C:\Users\rannyer.thom\source\repos\ProjetoCinema\ProjetoCinema\bin\Debug\ProjetoCinema.pdb
+C:\Users\rannyer.thom\source\repos\ProjetoCinema\ProjetoCinema\obj\Debug\ProjetoCinema.csproj.AssemblyReference.cache
+C:\Users\rannyer.thom\source\repos\ProjetoCinema\ProjetoCinema\obj\Debug\ProjetoCinema.csproj.CoreCompileInputs.cache
+C:\Users\rannyer.thom\source\repos\ProjetoCinema\ProjetoCinema\obj\Debug\ProjetoCinema.exe
+C:\Users\rannyer.thom\source\repos\ProjetoCinema\ProjetoCinema\obj\Debug\ProjetoCinema.pdb

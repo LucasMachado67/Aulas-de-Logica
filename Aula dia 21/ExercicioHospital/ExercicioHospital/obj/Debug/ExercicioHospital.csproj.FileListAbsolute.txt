@@ -1,0 +1,7 @@
+C:\Users\rannyer.thom\source\repos\ExercicioHospital\ExercicioHospital\bin\Debug\ExercicioHospital.exe.config
+C:\Users\rannyer.thom\source\repos\ExercicioHospital\ExercicioHospital\bin\Debug\ExercicioHospital.exe
+C:\Users\rannyer.thom\source\repos\ExercicioHospital\ExercicioHospital\bin\Debug\ExercicioHospital.pdb
+C:\Users\rannyer.thom\source\repos\ExercicioHospital\ExercicioHospital\obj\Debug\ExercicioHospital.csproj.AssemblyReference.cache
+C:\Users\rannyer.thom\source\repos\ExercicioHospital\ExercicioHospital\obj\Debug\ExercicioHospital.csproj.CoreCompileInputs.cache
+C:\Users\rannyer.thom\source\repos\ExercicioHospital\ExercicioHospital\obj\Debug\ExercicioHospital.exe
+C:\Users\rannyer.thom\source\repos\ExercicioHospital\ExercicioHospital\obj\Debug\ExercicioHospital.pdb
