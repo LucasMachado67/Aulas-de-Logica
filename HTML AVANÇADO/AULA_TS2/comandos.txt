@@ -1,0 +1,2 @@
+npx tsc - para rodar o type script
+npx tsc -- watch - frunciona como um "live server"

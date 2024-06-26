@@ -1,0 +1,38 @@
+O que é uma API?
+Conjunto de padrões estabelecidos para um determinado software, que oferecem interfacesde comunicação com acesso
+restrito a recursos, permitindo comunicação ao mundo externo;
+
+WebService:
+serviço online usado para receber os dados de algum lugar por exemplo: netflix ou algum site de previsão de tempo;
+
+HTTP - É um protocolo de transferência de dados, ele é responsável pela transferência de dados para a WWW.
+(World Wide Web) através de um servidor; Manda dados para internet ou busca dados da intenet,
+a função da API Émanipular esses dados;
+
+Métodos HTTP:
+
+GET: Buscar;
+Head: Retornar cabeçalho;
+POST: Criar Conteúdo;
+PUT: guardar ou atualizar;
+DELETE: Remover;
+PATCH: Atualizar parcialmente;
+TRACE: Testar ou depurar;
+OPTIONS: Buscar métodos suportados para a URL;
+CONNECT: abrir túnel de conexão;
+
+Protocolo: 
+Define como um dado é transportado pela internet;
+
+Interface:
+O que vai ser transportado;
+
+Pacote/package: 
+É um conjunto de dados que serão transferidos através da rede ou determina quem será transportado.
+
+
+
+
+
+
+

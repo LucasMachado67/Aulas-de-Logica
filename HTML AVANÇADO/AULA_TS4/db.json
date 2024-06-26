@@ -1,0 +1,73 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Horacio",
+      "email": "hoho@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Aurélio Flores",
+      "email": "flores.auau@gmail.com"
+    }
+  ],
+  "animal": [
+    {
+      "id": "1",
+      "nome": "Destruidor de Mundos",
+      "especie": "texugo"
+    },
+    {
+      "id": "2",
+      "nome": "Lili",
+      "especie": "tubarão"
+    },
+    {
+      "id": "3",
+      "nome": "Princeza",
+      "especie": "peixe-lanterna"
+    },
+    {
+      "id": "4",
+      "nome": "Doutora Deolane",
+      "especie": "guaxinim"
+    },
+    {
+      "id": "5",
+      "nome": "Maxãmp",
+      "especie": "texugo"
+    }
+  ],
+  "superHeroi": [
+    {
+      "id": "1",
+      "nome": "super-gosma",
+      "poderes": "Virar Pedra",
+      "escalaPoder": "cidade"
+    },
+    {
+      "id": "2",
+      "nome": "FutuPast",
+      "poderes": "Mudar o destino",
+      "escalaPoder": "galáxia"
+    },
+    {
+      "id": "3",
+      "nome": "super-tiro",
+      "poderes": "se jogar em alta velocidade",
+      "escalaPoder": "planeta"
+    },
+    {
+      "id": "4",
+      "nome": "Aqua",
+      "poderes": "controlar as chamas",
+      "escalaPoder": "cidade"
+    },
+    {
+      "id": 5,
+      "nome": "C#çador",
+      "poderes": "Caçar erros e apontar e te julgar e.e",
+      "escalaPoder": "cidade"
+    }
+  ]
+}

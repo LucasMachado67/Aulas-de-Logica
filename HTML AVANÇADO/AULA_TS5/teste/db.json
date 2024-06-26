@@ -1,0 +1,24 @@
+{
+  "produto": [
+    {
+      "id": "1",
+      "title": "Gaite de fole da invisibilidade",
+      "price": 178.9,
+      "description": "Enquanto você tocar ela você fica invisivel",
+      "category": "Objetos Mágicos",
+      "image": "https://google.com/image.jpg",
+      "rating": {
+        "rate": 5,
+        "count": 1
+      }
+    }
+  ],
+
+  "customer":[
+    {
+      "id": "1",
+      "nome": "Virion",
+      "age": 102
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+HTTP STATUS:
+1xx - Informação 
+2xx - Sucesso
+3xx - Redirecionamento
+4xx - Erro Cliente
+5xx - Erro do servidor
+
+Web Service:
+Solução utilizada na integração de sistemas e na comunicação entre aplicações através da internet.
+
+Benefícios do Web Service:
+01 - Segurança;
+02 - Desacoplamento;
+03 - Conectividade;
+04 - Simplificação;
+
+MiddleWare:
+É um software que fornece serviços e recursos comuns em toda a aplicação;
+Exemplo de MiddleWare: autenticação e autorização;
+
+Modelos de Serviços:
+SaaS - Software como serviço, contratação de software pronto, não necessita configuração;
+PaaS - plataforma como um serviço de contratação de plataforma;
+IaaS - Infraestrutura como Serviço, Contratação de Infra na nuvem, Configuração total do servidor;
+
+
+Ferramentas
+Curl - requisição em linha de comando
+Postman - IDE para requisição HTTP e documentação de aplicação
+Pipedream - criação de mocks para API;
+IDEs -
+
+Rest:
+Estilo arquitetural para construção de serviços WEB. Permite comunicação entre sistemas
+a partir de mensagens em vários Formatos: JSON, XML, TEXT e etc.
+RESTFul:
+São definições de fatores para decidir a maturidade de um serviço REST;
+
+**Todo POST tem que ter um Body**

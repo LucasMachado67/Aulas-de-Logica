@@ -1,0 +1,7 @@
+-Traz mais segurança diferente do JavaScript, poís o TypeScript é mais tipado;
+
+-As variáveis só podem possuir/receber apenas um tipo de dado (O primeiro recebido);
+
+-Transpilação = pega o código em TypeScript e passa para JavaScript;
+
+-s
