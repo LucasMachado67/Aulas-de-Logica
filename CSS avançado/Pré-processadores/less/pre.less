@@ -1,0 +1,59 @@
+
+@corFundo: lightblue;
+@cor1: darkgreen;
+@cor2: red;
+@cor3: blue;
+@tamanhoFonte: 16px;
+
+body{
+    background-color: @corFundo;
+}
+
+h1{
+    font-size: (@tamanhoFonte / 2) * 8;
+}
+
+p{
+    font-size: if(@tamanhoFonte > 15px, @tamanhoFonte, 10px);
+    color: @cor1;
+    b{
+        color: @cor2;
+        i {
+            color: @cor3;
+            font-size: if(@cor3 = blue, 30px, 10px)
+        }
+    }
+    i {
+        text-decoration: underline;
+    }
+}
+
+.formatoBasico(@corFonte, @tamanho, @ieMargin) {
+    color: @corFonte;
+    background-color: lighten(@corFonte, 35%);
+    font-size: @tamanho;
+    & when(@ieMargin) {
+        margin: auto;
+    }
+}
+h2 {
+    .formatoBasico(blue, @tamanhoFonte + 10 , true);
+    text-decoration: underline;
+}
+h3{
+    .formatoBasico(green, @tamanhoFonte + 11, false);
+    text-align: center;
+}
+
+h4{
+    .formatoBasico(gray, @tamanhoFonte + 12, false);
+    text-align: center;
+}
+
+h5{
+    .formatoBasico(purple, @tamanhoFonte + 13, true);
+    text-align: center;
+}
+
+
+

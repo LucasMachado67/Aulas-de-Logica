@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="Index.html">Menu</a>
+    <span>Cadastrar um novo curso</span>
+    <form action="ArmazenarCurso.html" method="post">
+        <fieldset widht="">
+            <legend>Detalhes Básicos</legend>
+            <div>
+                <label for="campo-nome">Nome</label>
+                <input type="text" id="campo-nome" name="nome" required>
+            </div>
+            <div>
+                <label for="campo-categoria">Categoria</label>
+                <select name="Categoria" id="campo-categoria" >
+                    <optgroup label="Desenvolvimento">
+                        <option value=" back-end">back-end</option>
+                        <option value="front-end">front-end</option>
+                        <option value="full-stack">full-stack</option>
+                    </optgroup>
+                    <optgroup>
+                        <option value="vendedor">vendedor</option>
+                        <option value="comprador">comprador</option>
+                    </optgroup>
+                </select>
+            </div>
+        <div>
+            <label for="campo-duracao">Duração</label>
+            <input type="time" id="campo-duracao" name="duracao" required> 
+        </div>
+        <div>
+            <label for="campo-thumb">Selecione</label>
+            <input type="file" id="campo-thumb" name="thumb" required>
+        </div>
+        <button type="submit">Cadastrar</button>
+    </fieldset>
+    </form>
+</body>
+</html>

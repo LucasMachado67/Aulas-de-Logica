@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+.efeito1{
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border: 1px solid golden;
+    background-color: black;
+    transition: height 2s, width 3s, background 2s, border 2s, border-radius 2s;
+}
+.efeito1:hover{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    border: 50px solid goldenrod;
+    border-radius: 50%;
+}

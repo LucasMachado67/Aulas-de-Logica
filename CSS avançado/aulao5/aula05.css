@@ -1,0 +1,52 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    /* padding: 0px 30px; */
+    height: 50px;
+    width: 100%;
+    
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    list-style: none;
+}
+header .menu {
+
+    display: none;
+}
+
+header nav ul li{
+    transition: 0.3s;
+}
+header nav ul li:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+@media (max-width: 680px){
+    header .menu{
+        display: flex;
+    }
+    header nav{
+        display: none;
+        
+    }
+    header nav ul{
+        display:none;
+        justify-content: space-between;
+        width: 100px;
+        list-style: none;
+    }
+    header nav:hover{
+        width: 100px;
+    }
+    .hamburguer{
+        display: flex;
+    }
+}

@@ -1,0 +1,34 @@
+COMANDO PARA VERIFICAR A VERSÃO DO APLICATIVO:
+aplicativo -v, ex: node -v;
+
+COMANDO CD: serve para selecionar uma pasta
+cd nomePasta;
+
+CTRL + C = derruba o servidor;
+SHIFT INSERT - tem a função do ctrl c;
+CTRL INSERT - tem a mesma função do ctrl v;
+
+node nodeJS = Executa o arquivo nodeJS;
+
+para instaler um pacote: npm install nomePacote;
+(se botar -g depois do install, ele vai ser direcionado como global.)
+
+iniciar um prjeto/abre o projeto package.JSON: npm init;
+
+Mais comandos NPM:
+
+npm list = traz uma lista de todas as versões dos pacotes que forma utilizados(com dependências);
+npm ls --depth 0 = mostra os pacotes que foram instalados(sem dependências);
+npm help = para solicitar ajuda;
+npm init -y + faz o moesmo que o npm init, porém o -y faz evitar as perguntas no processo de iniciação do pacote;
+npm outdated = verifica a existência de módulos/pacotes não atualizados;
+
+npm install --save espress-generator = Para instalação e criação das pastas.
+mkdir MeuProjeto para criar a pasta do projeto
+npm start para iniciar o aplicativo.
+
+npm i typescript - instala o typescript
+
+npx tsc --init = instala o tsconfig.json 
+
+set-executionpolicy remotesigned = section executio police - libera acesso a documentos 

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+
+<body>
+    <h1>Sistema de cadastro de pacientes</h1>
+    <!-- Nome do paciente -->
+    <!-- idade -->
+    <!-- ano de nascimento -->
+    <!-- do Cor/raça -->
+    <!-- peso -->
+    <!-- altura -->
+    <!-- Data e hora da consulta -->
+    <form action="/cadastrar" method="get"> <!-- é o que vai dizer para onde essa informação vai ir-->
+        <div>
+            <label for="paciente-nome">Nome do paciente</label>
+            <input type="text" id="paciente-nome" name="nome" required="required" minlength="1" maxlength="35">
+        </div>
+        <div>
+            <label for="paciente-idade">Idade</label>
+            <input type="number" id="paciente-idade" name="idade" required="required" min="1" max="110">
+        </div>
+        <div>
+            <label for="paciente-ano-nascimento">Ano de nascimento</label>
+            <input type="date" id="paciente-ano-nascimento" name="nascimento" required="required" min="1920" max="2024">
+        </div>
+        <div>
+            <label for="paciente-email">E-mail</label>
+            <input type="email" id="paciente-email" name="email" required="required">
+        </div>
+        <div>
+            <label for="paciente-cor">Cor/Raça</label>
+            <select name="cor" id="paciente-cor" required="required">
+                <option selected="select" disabled="disabled">Selecione uma opção</option>
+                <option value="1">Branco</option>
+                <option value="2">Preto</option>
+                <option value="3">Pardo</option>
+                <option value="4">Amarelo</option>
+            </select>
+        </div>
+        <div>
+            <label for="paciente-peso">Peso</label>
+            <input type="number" id="paciente-peso" required="required" name="peso" min="10" max="300">
+        </div>
+        <div>
+            <label for="paciente-altura">Altura</label>
+            <input type="number" id="paciente-altura" name="altura" required="required" min="100">
+        </div>
+        <div>
+            <label for="paciente-data-hora">Data e hora da consulta</label>
+            <input type="datetime-local" id="paciente-data-hora" name="data-hora" required="required">
+        </div>
+        <button type="submit">Agendar Consulta</button>
+    </form>
+</body>
+
+</html>
+<!-- audio, video, field set, the foot , progress, text area -->

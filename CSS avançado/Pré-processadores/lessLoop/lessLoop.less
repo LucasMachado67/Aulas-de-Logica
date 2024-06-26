@@ -1,0 +1,18 @@
+
+
+
+
+
+@numeros: 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1;
+@colorLoop: rgb(151, 102, 160);
+
+each(@numeros, {
+    #texto-@{value}{
+        color: (@colorLoop / (@value / 2));
+        background-color: (@colorLoop * (5 / @value));
+        margin: 0;
+        font-family: 'Courier New', Courier, monospace;
+        height: if(@value > 7, 20px + @index, 15px + @index);
+        font-weight: bolder;
+    }
+});

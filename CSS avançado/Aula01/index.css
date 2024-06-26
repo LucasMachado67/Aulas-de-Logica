@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+}
+.rotate{
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transform: rotate;
+    transition: rotate 1;
+}
+.rotate:hover{
+    rotate: 1turn;
+}
+.scale{
+    background-color: blue;
+    border: 1px solid black;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transform: scale(2, 1);
+    transition: scale 1s;
+}
+.skew{
+    background-color: green;
+    border: 1px solid black;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transform: skew(39deg, 328deg);
+    transition: skew 1s;
+}
+.translate{
+    background-color: green;
+    border: 1px solid black;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transform: translate(150px, -50px);
+
+}
+.matrix{
+    background-color: lightblue;
+    transform: matrix(1.5, 0.5, 0.5, 
+    0.1, 200, 1);
+}
+.multiTransform{
+    background-color: blueviolet;
+    transform: scale(0.7) translate(30%) rotate(0.7turn);
+    border: 1px solid black;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;  
+    transition: transform 2s; 
+}
+.multiTransform:hover{
+    transform: scale(4) translate(90%) rotate(4turn);
+}
+.rotate-top{
+    transform: rotate(0.7turn);
+    transform-origin: top left;
+    border: 1px solid black;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;  
+    background-color: darkmagenta;
+    transition: 4s;
+}
+.rotate-top:hover{
+    transform: rotate(4turn);
+
+}
+
+

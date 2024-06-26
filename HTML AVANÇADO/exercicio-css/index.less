@@ -1,0 +1,171 @@
+
+@corFundo: white;
+@corTitulo: black;
+@corFundo2: rgb(44, 110, 232);
+
+@titulos: 4, 3, 2, 1;
+@colorLoop: rgb(56, 52, 52);
+
+
+
+each(@titulos, {
+    #titulo-@{value}{
+        color: (@colorLoop * (@value / 2));
+        background-color: (@corFundo2 + (@value * 5));
+        font-weight: bold;
+        // font-size: ()
+        
+    }
+});
+
+.formatoBasicoH(@fonte,@corLetra) {
+    color: @corLetra;
+    font-weight: @fonte;
+}
+
+
+.formatoCorFundo2(@corFundo2){
+    background-color: rgb(44, 110, 232);
+    & when (backgorund-color = @corfundo2){
+        border: 1px solid blue;
+    }
+}
+
+.alturaLargura(@altura, @largura){
+    width: @largura;
+    height: @altura;
+}
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    background-color: @corFundo;
+}
+
+h1{
+    margin: 75px;
+    // .formatoBasicoH(bold, black);
+}
+
+.container {    
+    height: 100vh;
+    border: 1px solid @corFundo;
+}
+
+h2{
+    .formatoBasicoH(bold, black);
+}
+
+header{
+    background-color: rgb(44, 110, 232);
+    color: white;
+    margin-bottom: 100%;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    .alturaLargura(auto, 100%);
+}
+
+.link{
+    background-color: white;
+    display: inline-block;
+    .alturaLargura(40px, 100px);
+    align-content: center;
+    border: 3px solid rgb(1, 41, 66);
+    transition: background 1s;
+}  
+
+.link:hover{
+    background-color: rgb(44, 110, 232);  
+}  
+
+a{
+    text-decoration: none;
+    color: @corTitulo;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linksTabela{
+    color: @corTitulo;
+
+}
+
+.linksTabela:hover{
+    color: blue;
+}
+
+img{
+    .alturaLargura(90px, 90px);
+    
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+tr{
+    .alturaLargura(auto, 100px);
+}
+
+td{
+    .alturaLargura(100px, 175px);
+    background-color: rgba(128, 128, 128, 0.392);
+    font-weight: bold;
+    transition: background 0.5s;
+}
+
+td:hover{
+    background-color: lightblue;
+}
+
+tr,
+td{
+    border: 1px solid black;
+}
+
+article{
+    margin-top: 40px;
+}
+
+h3{
+    .formatoBasicoH(bold, black);
+}
+
+h4{
+    .formatoBasicoH(bold, black);
+    font-size: 20px;
+}
+
+.comentario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: @corTitulo;
+}
+
+q{
+    color: @corTitulo;
+}
+
+.historia{
+    color: @corTitulo;
+}
+
+footer {
+
+    background-color: rgb(44, 110, 232);
+    color: white;
+    margin-top: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    .alturaLargura(auto, 100%);
+}
+
+a:hover{
+    color: white;
+}

@@ -1,0 +1,12 @@
+        alt + seta = mover linha
+        Alt + shift + seta = duplicar linha
+        Alt + shift + f = formatar
+        Ctrl + shift + K = apagar linha
+        Ctrl + D = selecionar próxima linha
+        Ctrl + B = ocultar painel lateral
+        Ctrkl + N = Novo documento
+        Ctrl + Shift + P = Abrir busca de comandos do vscode
+        Ctrl + f = Buscar
+        Ctrl + H: Substituir
+        Ctlr + Shift + F: Buscar no projeot
+        Ctrl + Shift + H: Substituir no projeto

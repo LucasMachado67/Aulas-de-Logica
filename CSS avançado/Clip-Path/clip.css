@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+#inset{
+    clip-path: inset(32px 20px);
+}
+#circle{
+    clip-path: circle(30%);
+}
+
+#circle2{
+    clip-path: circle(100px at 150px 50px);
+}
+
+#ellipse{
+    clip-path: ellipse(45% 80px);
+}
+#ellipse2{
+    clip-path: ellipse(45% 80px at right);
+}
+
+#polygon{
+    clip-path: polygon( 0% 20%,
+                        60% 20%,
+                        60% 0%,
+                        100% 50%,
+                        60% 100%,
+                        60% 80%,
+                        0% 80%
+                        );
+}
+#polygon2{
+    clip-path: polygon( 47% 40%,
+                        70% 100%,
+                        35% 90%,
+                        40% 29%,
+                        70% 10%,
+                        80% 60%,
+                        70% 30%,
+                        90% 40%
+                        );
+}
